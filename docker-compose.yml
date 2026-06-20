@@ -1,0 +1,6 @@
+services:
+  app:
+    image: springboot-app
+    container_name: spring-demo-compose
+    ports:
+      - "8080:8080"
